@@ -1,0 +1,41 @@
+.about{
+    overflow-x: hidden;
+    position: relative;
+
+    &__title{
+        font-family: RobotoThin, sans-serif;
+        margin-top: 0;
+        padding-top: 40px;
+    }
+
+    &__info{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+   
+    &__img{
+       max-width: 340px;
+    }
+    &__photo{
+        position: relative;
+        transition: 0.5s linear;
+
+    }
+    &__text{
+        color: #444444;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 25px;
+
+        &-block{
+            width: 40%;
+        }
+    }
+
+    &__subtitle{
+        display: block;
+    }
+}

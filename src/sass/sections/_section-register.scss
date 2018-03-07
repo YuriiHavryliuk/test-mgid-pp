@@ -1,0 +1,49 @@
+.register{
+    background-image: url('../img/register-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    min-height: 600px;
+    position: relative;
+
+    &__form{
+        background-color: #ffffff;
+        padding: 40px 80px;
+        align-items: center;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+        border-radius: 4px;
+        font-family: "RobotoThin";
+
+        & .btn{
+            font-size: 20px;
+            font-weight: 400;
+            margin-top: 25px;
+            line-height: 32px;
+            font-family: Roboto;
+            padding: 5px 20px;
+
+        }
+
+    }
+    &__title{
+        color: #555555;
+        font-size: 35px;
+        font-weight: 400;
+        line-height: 32px;
+        margin-bottom: 30px;
+    }
+
+    & .form {
+        &-group {
+            width: 100%;
+            position: relative;
+        }
+    }
+}
+
+

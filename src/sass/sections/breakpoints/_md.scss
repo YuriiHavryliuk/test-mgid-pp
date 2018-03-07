@@ -1,0 +1,39 @@
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991px) {
+    .container{
+		width: 720px;
+    }
+
+  .slider{
+    &__text{
+      font-size: 36px;
+      margin-bottom: 10px;
+      line-height: 40px;
+    }
+    & .container-slide-text{
+      right: 21%;
+      max-width: 40%;
+    }
+    & .btn{
+      padding: 3px 15px;
+    }
+    &__img{
+      height: 300px;
+    }
+  }
+  .skillbar__title-block {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 990px) {
+  .mobile-hide {
+    display: none;
+  }
+  .burger{
+    display: block !important;
+    position: absolute;
+    top: 8px;
+    right: 5px;
+  }
+}

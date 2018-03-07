@@ -1,0 +1,19 @@
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container{
+        width: 960px;
+    }
+    .slider .container-slide-text {
+        right: 19%;
+        max-width: 36%;
+    }
+    .menu-open .menu-m{
+        display: none;
+    }
+    .slider {
+        &__img {
+            height: 350px;
+        }
+    }
+}

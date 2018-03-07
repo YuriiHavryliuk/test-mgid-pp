@@ -1,0 +1,56 @@
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767px) {
+    .container{
+        width: 540px;
+    }
+
+    .slider{
+
+        &__text{
+            font-size: 30px;
+            line-height: 32px;
+            margin-bottom: 10px;
+        }
+        & .container-slide-text{
+            right: 23%;
+            max-width: 40%;
+        }
+        & .btn{
+            padding: 5px 16px;
+            font-size: 16px;
+        }
+        &__img{
+            height: 250px;
+        }
+
+        .slider__prev:hover, .slider__next:hover {
+            background-color: rgba(0, 0, 0, 0.1);
+            -webkit-transition: 0.3s linear;
+            transition: 0.3s linear;
+        }
+        .slider__next {
+            right: 0;
+        }
+        &__prev, &__next {
+            padding: 0 50px 0 40px;
+    }
+    }
+    .about{
+
+        &__info{
+            flex-direction: column;
+            align-items: center;
+        }
+        &__slills{
+            width: 100%;
+        }
+        &__text{
+            font-size: 23px;
+        }
+        &_photo{
+            width: 100%;
+            margin: 0 auto;
+        }
+    }
+
+}
