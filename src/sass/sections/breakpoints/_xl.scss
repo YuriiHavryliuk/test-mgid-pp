@@ -2,12 +2,8 @@
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
     .container{
-        width: 1140px;
+        width: 940px;
     }
-    .slider {
-        &__img {
-            height: 420px;
-        }
-    }
+
 }
 
