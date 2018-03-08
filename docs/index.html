@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Test-mgid</title>
+</head>
+<body>
+<header class="header">
+	<div class="header__info js-menu">
+		<div class="container header__cont">
+		<h1 class="header__logo">layout</h1>
+		<nav class="header__nav mobile-hide">
+			<ul class="header__menu menu  js-menu-item" data-menu-order="0">
+				<li class="menu__item">
+					<a class="menu__link" href="#">html</a>
+				</li>
+				<li class="menu__item">
+					<a class="menu__link" href="#">css</a>
+				</li>
+				<li class="menu__item">
+					<a class="menu__link" href="#">javascript</a>
+				</li>
+			</ul>
+		</nav>
+		<a href="#form-reg" type="button" class="btn js-scroll mobile-hide js-menu-item" data-menu-order="1">enter</a>
+	</div>
+		<div class="burger js-menu-trigger">
+			<span class="burger__i"></span>
+			<span class="burger__i"></span>
+			<span class="burger__i"></span>
+		</div>
+	</div>
+	<div class="header__slider slider">
+		<div class="slider__item slide-fade js-slide">
+			<img class="slider__img" src="img/header-slide.jpg" alt="slide-1">
+			<div class="container-slide-text">
+					<h1 class="slider__text">Monetize<br> your skills now!</h1>
+					<a href="#" class="btn btn--slider">Go!</a>
+				</div>
+		</div>
+		<div class="slider__item slide-fade js-slide">
+			<img class="slider__img" src="img/header-slide5.jpg" alt="slide-2">
+			<div class="container-slide-text">
+					<h1 class="slider__text slider__text--dark">Monetize<br> your skills now!</h1>
+					<a href="#" class="btn btn--slider">Go!</a>
+			</div>
+		</div>
+		<div class="slider__item slide-fade js-slide">
+			<img class="slider__img" src="img/header-slide.jpg" alt="slide-3">
+			<div class="container-slide-text">
+					<h1 class="slider__text">Monetize<br> your skills now!</h1>
+					<a href="#" class="btn btn--slider">Go!</a>
+			</div>
+		</div>
+		<div class="slider__item slide-fade js-slide">
+			<img class="slider__img" src="img/header-slide4.jpg" alt="slide-4">
+			<div class="container-slide-text">
+					<h1 class="slider__text slider__text--dark">Monetize<br> your skills now!</h1>
+					<a href="#" class="btn btn--slider">Go!</a>
+				</div>
+		</div>
+		<div class="slider__item slide-fade js-slide">
+			<img class="slider__img" src="img/header-slide5.jpg" alt="slide-5">
+			<div class="container-slide-text">
+					<h1 class="slider__text slider__text--dark">Monetize<br> your skills now!</h1>
+					<a href="#" class="btn btn--slider">Go!</a>
+			</div>
+		</div>
+		<div class="container container-arrows">
+			<div  class="slider__prev" onclick="plusSlides(-1)"><img class="slider__arrow" src="img/arrow-prew.png" alt="prev"></div>
+			<div class="slider__next" onclick="plusSlides(1)"><img class="slider__arrow" src="img/arrow-next.png" alt="next"></div>
+		</div>
+		<div class="slider__dots">
+			<span class="slider__dot js-slider-dot active" onclick="currentSlide(1)"></span>
+			<span class="slider__dot js-slider-dot" onclick="currentSlide(2)"></span>
+			<span class="slider__dot js-slider-dot" onclick="currentSlide(3)"></span>
+			<span class="slider__dot js-slider-dot" onclick="currentSlide(4)"></span>
+			<span class="slider__dot js-slider-dot" onclick="currentSlide(5)"></span>
+		</div>
+	</div>
+
+</header>
+<div class="menu-m">
+	<div class="container">
+	</div>
+</div>
+<section class="section about">
+	<div class="container about__info">
+		<div class="about__text-block">
+			<h1 class="about__title">Something about you</h1>
+			<div class="about__text">
+				<p>In this section, you can specify any information about yourself, insert your photos, your interests
+				and skills. It is also desirable to use tag canvas.
+				</p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
+					labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+					nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
+					esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+					culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus
+					error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab 
+					illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam 
+					voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores 
+					eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor 
+					sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore 
+					et dolore magnam aliquam quaerat voluptatem.
+			</div>
+		</div>
+		<div class="about__photo">
+			<span class="about__subtitle">
+				Your photo
+			</span>
+			<img class="about__img" src="img/about-photo.jpg" alt="My-photo">
+		</div>
+	</div>
+</section>
+
+
+<section class="section register">
+            <div class="register__form" id="form-reg">
+                <div class="register__title">Register</div>
+                <form class="form register-form" action="#" method="post" name="register-form">
+                    <input required class="form__inp" type="email" placeholder="Email">
+                    <input required class="form__inp" type="password" placeholder="Password">
+                    <div class="form-group">
+                        <select required class=" js-sel" name="sel-country">
+                                <option value="" disabled selected >Country</option>
+                                <option value="Country 1">Country 1</option>
+                                <option value="Country 2">Country 2</option>
+                                <option value="Country 3">Country 3</option>
+                                <option value="Country 4">Country 4</option>
+                                <option value="Country 5">Country 5</option>
+                                <option value="Country 6">Country 6</option>
+                                <option value="Country 7">Country 7</option>
+                                <option value="Country 8">Country 8</option>
+                                <option value="Country 9">Country 9</option>
+                                <option value="Country 10">Country 10</option>
+                            </select>
+                    </div>
+                    <button type="submit" class="btn">Enter</button>
+                </form>
+            </div>
+</section>
+<footer class="footer">
+	<div class="footer__cprt">
+		© <span id="footer__year"></span> layout
+	</div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script
+        src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+        integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+        crossorigin="anonymous"></script>
+<script src="script/select-widget-min.js"></script>
+<script src="script/script.js"></script>
+<script src="script/canvas-bg.js"></script>
+</body>
+</html>

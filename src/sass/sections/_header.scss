@@ -141,7 +141,11 @@
         animation-duration: 1.5s;
         animation-timing-function: ease-in-out;
         z-index: 9;
-        background-color: #34c06f;
+        background-color: #25a65b;
+
+        &:hover{
+            background-color: #34bf6e;
+        }
 
     }
     & .container-arrows{
@@ -155,7 +159,7 @@
 }
 @keyframes slide-fade {
     from {
-        margin-left: 0;
+        margin-left: -35px;
     }
     to {
         margin-left: -40px;

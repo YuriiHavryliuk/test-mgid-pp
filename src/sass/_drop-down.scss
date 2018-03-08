@@ -12,6 +12,8 @@ div.select-main {
 	-moz-appearance: none;
 	-webkit-appearance: none;
 	appearance: none;
+	color: #555555;
+	font-family: "RobotoLight";
 }
 
 div.select-main.z-index { z-index: 10; }
@@ -36,7 +38,7 @@ div.select-set {
 	position: relative;
 	z-index: 5;
 	text-align: left;
-	padding: 4px 15px;
+	padding: 4px 20px;
 	user-select: none;
 }
 .select-items:first-of-type{
